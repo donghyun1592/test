@@ -89,6 +89,8 @@ public class TodoController {
         return "test";
     }
 
+    public void t() {}
+
     public Integer testInteger() {
         return 123;
     }
