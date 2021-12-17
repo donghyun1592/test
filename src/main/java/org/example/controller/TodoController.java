@@ -90,4 +90,8 @@ public class TodoController {
     }
 
     public void t() {}
+
+    public Integer testInteger() {
+        return 123;
+    }
 }
