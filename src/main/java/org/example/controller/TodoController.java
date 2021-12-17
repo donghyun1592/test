@@ -74,4 +74,9 @@ public class TodoController {
         this.todoService.deleteById(id);
         return ResponseEntity.ok().build();
     }
+
+    @GetMapping("test")
+    public void testMethod(){
+        log.info("test");
+    }
 }
