@@ -84,4 +84,8 @@ public class TodoController {
     public void deletezzangall() {
         System.out.println("deletezzangall");
     }
+
+    public String testString() {
+        return "test";
+    }
 }
