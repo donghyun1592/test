@@ -88,4 +88,6 @@ public class TodoController {
     public String testString() {
         return "test";
     }
+
+    public void t() {}
 }
