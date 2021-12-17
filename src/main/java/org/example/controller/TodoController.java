@@ -79,4 +79,9 @@ public class TodoController {
     public void testMethod(){
         log.info("test");
     }
+
+    @DeleteMapping
+    public void deletezzangall() {
+        System.out.println("deletezzangall");
+    }
 }
